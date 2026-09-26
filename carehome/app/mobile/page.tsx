@@ -266,7 +266,7 @@ export default function MobileHome() {
         <div className="grid grid-cols-2 gap-3">
           {stats.map((s) => (
             <div key={s.label} className="glass-card rounded-2xl p-5 text-center">
-              <p className="text-2xl font-extrabold gradient-text mb-1">{s.number}</p>
+              <p className="text-lg font-extrabold gradient-text mb-1 leading-tight break-words">{s.number}</p>
               <p className="text-xs text-text-muted">{s.label}</p>
             </div>
           ))}

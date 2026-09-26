@@ -301,7 +301,7 @@ export default function Home() {
                     <img
                        src="/images/homecare.jpg"
                        alt="Layanan Home Care"
-                        className="w-full h-52 object-cover rounded-2xl mb-4"
+                        className="w-full h-52 object-contain rounded-2xl mb-4"
                       />
                         <p className="text-text-muted leading-relaxed">
                         </p>
