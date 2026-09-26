@@ -168,12 +168,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
           <a href="#beranda" className="flex items-center gap-2 group">
-  <img
-    src="/images/logo.jpg"
-    alt="Aileen HomeService"
-    className="w-10 h-10 object-contain"
-  />
-
+        <img
+          src="/images/logo.jpg"
+           alt="Aileen HomeService"
+          className="w-10 h-10 object-contain"
+           />
   <span className="text-xl font-bold tracking-tight">
     <span className="gradient-text">Aileen</span>
     <span className="text-foreground">HomeService</span>
@@ -590,9 +589,11 @@ export default function Home() {
             {/* Brand */}
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-primary-light">
-                  <HeartIcon />
-                </span>
+                <img
+                    src="/images/logo.jpg"
+                    alt="Aileen HomeService"
+                   className="w-10 h-10 object-contain"
+                  />
                 <span className="text-xl font-bold">
                   <span className="gradient-text">Aileen</span>HomeService
                 </span>
