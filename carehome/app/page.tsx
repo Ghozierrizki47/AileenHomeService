@@ -168,14 +168,17 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
           <a href="#beranda" className="flex items-center gap-2 group">
-            <span className="text-primary-light text-2xl transition-transform group-hover:scale-110">
-              <HeartIcon />
-            </span>
-            <span className="text-xl font-bold tracking-tight">
-              <span className="gradient-text">Aileen</span>
-              <span className="text-foreground">HomeService</span>
-            </span>
-          </a>
+  <img
+    src="/images/logo.jpg"
+    alt="Aileen HomeService"
+    className="w-10 h-10 object-contain"
+  />
+
+  <span className="text-xl font-bold tracking-tight">
+    <span className="gradient-text">Aileen</span>
+    <span className="text-foreground">HomeService</span>
+  </span>
+</a>
 
           {/* Desktop Links */}
           <div className="hidden md:flex items-center gap-8">
