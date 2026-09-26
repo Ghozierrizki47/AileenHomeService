@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ailen Homecare",
+  title: "Aileen Home Sevices",
   description:
     "Layanan home care kesehatan dirumah.",
 };

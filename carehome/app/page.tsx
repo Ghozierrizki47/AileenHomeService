@@ -284,47 +284,33 @@ export default function Home() {
             </div>
 
             {/* Right — Decorative Card Stack */}
-            <div className="hidden lg:flex justify-center relative">
-              <div className="relative w-96 h-[480px]">
+            <div className="flex justify-center relative mt-10 lg:mt-0">
+               <div className="relative w-full max-w-sm h-[480px]">
                 {/* Main card */}
-                <div className="glass-card rounded-3xl p-8 absolute inset-0 flex flex-col justify-between animate-fade-in-up fade-delay-3">
-                  <div>
-                    <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-6 text-white">
-                      <HeartIcon />
-                    </div>
-                    <h3 className="text-2xl font-bold mb-3">
+                <div className="glass-card rounded-3xl p-6 sm:p-8 absolute inset-0 flex flex-col justify-between animate-fade-in-up fade-delay-3">
+              <div>
+                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-6 text-white">
+             <HeartIcon />
+               </div>
+                 <h3 className="text-2xl font-bold mb-3">
                       Caring with Heart
                     </h3>
-                    <p className="text-text-muted leading-relaxed">
 
-                    </p>
+                    <img
+                       src="/images/homecare.jpg"
+                       alt="Layanan Home Care"
+                        className="w-full h-52 object-cover rounded-2xl mb-4"
+                      />
+                        <p className="text-text-muted leading-relaxed">
+                        </p>
                   </div>
+                  
                   <div className="flex items-center gap-3 mt-6 pt-6 border-t border-border-glass">
-                    <div className="flex -space-x-2">
-                      {[0, 1, 2, 3].map((i) => (
-                        <div
-                          key={i}
-                          className="w-9 h-9 rounded-full border-2 border-background flex items-center justify-center text-xs font-bold"
-                          style={{
-                            background: [
-                              "linear-gradient(135deg, #0d9488, #14b8a6)",
-                              "linear-gradient(135deg, #34d399, #6ee7b7)",
-                              "linear-gradient(135deg, #0f766e, #0d9488)",
-                              "linear-gradient(135deg, #14b8a6, #34d399)",
-                            ][i],
-                          }}
-                        >
-                          {["S", "A", "R", "D"][i]}
-                        </div>
-                      ))}
+                  <div>
+                    <p className="text-sm font-semibold"></p>
+                  <p className="text-xs text-text-muted"></p>
                     </div>
-                    <div>
-                      <p className="text-sm font-semibold"></p>
-                      <p className="text-xs text-text-muted">
-
-                      </p>
                     </div>
-                  </div>
                 </div>
 
                 {/* Floating mini card */}
@@ -462,13 +448,12 @@ export default function Home() {
                 <span className="gradient-text">Ribuan Keluarga</span>
               </h2>
               <p className="text-text-muted leading-relaxed mb-8">
-
               </p>
-
               <div className="flex items-center gap-4">
                 <div className="flex -space-x-3">
                   {[0, 1, 2, 3, 4].map((i) => (
                     <div
+                    key={i}
                     >
                     </div>
                   ))}
